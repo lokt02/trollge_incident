@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "chair.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 213,
+				"h": 537
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "darkChair1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 103,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 272
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 103,
+						"h": 272
+					}
+				},
+				{
+					"filename": "darkChair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 106,
+						"h": 261
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 106,
+						"h": 261
+					},
+					"frame": {
+						"x": 106,
+						"y": 1,
+						"w": 106,
+						"h": 261
+					}
+				},
+				{
+					"filename": "trollChair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 103,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 104,
+						"h": 261
+					},
+					"frame": {
+						"x": 1,
+						"y": 275,
+						"w": 104,
+						"h": 261
+					}
+				},
+				{
+					"filename": "trollChair1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 103,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 261
+					},
+					"frame": {
+						"x": 107,
+						"y": 264,
+						"w": 103,
+						"h": 272
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:557d4e4bac97547440953e80447d075d:770f47476fd5953d7fddcc930b003f77:66f99fd641b2745207027704656f99d0$"
+	}
+}
