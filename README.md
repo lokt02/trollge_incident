@@ -2,10 +2,11 @@
  A simple 5 minute game made with Phaser 3 and Node JS.
  All resources are photoshoped stock images, free sound effects or SAM TTF for voiced lines of dialoge.
  
- If you want to use this code, then you should download Node JS and after downloading this repo enter commands to terminal:
+ If you want to use this code, then you should download Node JS and after downloading this repo enter command to terminal:
  ```
  npm install
  ```
+ To build:
  ```
  npm run-script build
  ```
