@@ -31,9 +31,11 @@ export default class lvl6 extends Phaser.Scene{
         this.load.audio('617', 'src/assets/audio/dialoge/617.mp3');
         this.load.audio('618', 'src/assets/audio/dialoge/618.mp3');
         this.load.audio('619', 'src/assets/audio/dialoge/619.mp3');
+        this.load.audio('screamer_end', 'src/assets/audio/screamers/screamer_at_the_end.mp3');
     }
 
     create(){
+        this.screamerSound = this.sound.add('screamer_end');
         this.audio = this.sound.add('wind');
         this.audio.play();
 
@@ -342,6 +344,7 @@ export default class lvl6 extends Phaser.Scene{
                                     callback: ()=>{
                                         this.trollge.alpha = 0;
                                         this.screamer.alpha = 1;
+                                        this.screamerSound.play();
                                         this.time.addEvent({
                                             callback: ()=>{
                                                 this.scene.stop('lvl6');

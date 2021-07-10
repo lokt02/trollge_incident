@@ -16,9 +16,11 @@ export default class lvl4 extends Phaser.Scene{
         this.load.atlas('chair', ChairPNG, ChairRes);
         this.load.atlas('trollgeatlas', trollgePNG, trollgeRes);
         this.load.audio('ambient', 'src/assets/audio/ambient.ogg');
+        this.load.audio('screamer1', 'src/assets/audio/screamers/screamer1.mp3');
     }
 
     create(){
+        this.screamerSound = this.sound.add('screamer1');
         this.audio = this.sound.add('ambient');
         this.audio.play();
         
@@ -170,6 +172,7 @@ export default class lvl4 extends Phaser.Scene{
             
             this.time.addEvent({
                 callback: ()=>{
+                    this.screamerSound.play();
                     var rotate1 = 45;
                     var rotate2 = 48;
                     var rotate3 = 43;

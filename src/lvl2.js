@@ -141,7 +141,7 @@ export default class lvl2 extends Phaser.Scene{
             if(!this.footstep.isPlaying){this.footstep.play()}
             this.WalkAnim();
         }
-        if(this.enemy.x > this.xCoord){
+        if(this.enemy.x + 250 > this.xCoord){
             this.dan.stop();
             this.scene.stop('lvl2');
             this.scene.start('lvl3');
